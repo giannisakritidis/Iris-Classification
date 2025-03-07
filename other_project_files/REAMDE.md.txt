@@ -1,0 +1,25 @@
+# Iris Flower Classification
+
+## Overview
+This project demonstrates the use of machine learning to classify iris flowers based on their measurements (sepal length, sepal width, petal length, petal width).
+
+## Steps Taken:
+1. **Data Loading and Preprocessing**: Loaded and explored the Iris dataset.
+2. **Model Selection and Hyperparameter Tuning**: Tested several machine learning models and tuned hyperparameters using GridSearchCV.
+3. **Model Saving**: Saved the best performing model using pickle.
+4. **Web App**: Built a simple Streamlit web app to make predictions based on user inputs.
+
+## Requirements:
+1. Python 3.x
+2. Libraries:
+   - scikit-learn
+   - pandas
+   - matplotlib
+   - seaborn
+   - streamlit
+   - pickle
+
+## How to Run:
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Streamlit app: `streamlit run streamlit_app.py`
